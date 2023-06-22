@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Pacifico&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    
+}
+
+.one{
+    width: 33.4%;
+    background-color: rgba(182, 182, 182, 0.692);;
+    height: 40px;
+    position:absolute;
+
+}
+.profile{
+    grid-column: 1 / -1;
+  
+    
+}
+    
+    .profilText{
+    margin-top: 40px;
+    display: flex;
+    
+    }
+    
+    .profile_name{
+        color: #fff;
+        margin-left: 150px;
+        text-transform: uppercase;
+    }
+    
+    .profile_title{
+        color: #fff;
+        margin-left: 150px;
+        text-transform: capitalize;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+.container .left_side{
+    position: relative;
+    background: rgba(182, 182, 182, 0.692);
+    padding: 40px;
+}
+
+.profilText{
+    position: relative;
+    
+    align-items: center;
+    padding: 25px;
+   
+
+    background-color: rgb(34, 31, 31);
+}
+
+.profilText .imgbox{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 15px solid #b8993e;
+    overflow: hidden;
+    margin-left: 30px;
+
+    
+}
+
+.profilText .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profilText h2{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: 600;
+    line-height: 1.4rem;
+
+}
+
+.profilText h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contactinfo{
+    padding-top: 40px;
+
+}
+
+.title{
+    color:black ;
+    height: 40px;
+    padding-top: 10px;
+    background: white;
+    border-left: 20px solid #b8993e;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactinfo p{
+    text-align: justify;
+}
+
+.contactinfo ul{
+    position: relative;
+
+}
+
+.contactinfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactinfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #b8993e;
+}
+
+.contactinfo ul li span{
+    color: black;
+    font-weight: 300;
+}
+
+.contactinfo .percent{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background: rgba(151, 150, 150, 0.962);
+    display: block;
+    margin-top: 5px;
+
+}
+
+.contactinfo.skills .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: black;
+}
+
+.contactinfo.skills .percent div::after{
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    top:50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    background-color: #b8993e;
+}
+
+.contactinfo i{
+    color: #b8993e;
+    font-size: 20px;
+}
+
+.contacticon i{
+    color: #b8993e;
+    font-size: 36px;
+    padding: 10px 10px;
+    margin: 12px auto;
+    margin-left: 16px;
+    
+
+}
+
+
+.container .right_side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+    
+}
+.spacee{
+    padding-bottom: 40px;
+}
+.title2{
+    color:black ;
+    height: 40px;
+    padding-top: 5px;
+    background: rgba(182, 182, 182, 0.692);
+    border-left: 20px solid #b8993e;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.capital_letter{
+    text-transform: uppercase;
+}
+
+li{
+    color: #b8993e;
+    margin-left: 20px;
+}
+
+li span{
+    color: rgb(65, 63, 63);
+}
